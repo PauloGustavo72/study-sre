@@ -8,7 +8,7 @@
     
 ## Explicando a coisa ..
     
-   * Adicionamos o arquivo de [configuração](https://github.com/PauloGustavo72/study-sre/blob/master/monitoring/kafka/prom-jmx-agent-config.yml) e agente do prometheus na imagem do kafka:
+   * Adicionamos o [arquivo](https://github.com/PauloGustavo72/study-sre/blob/master/monitoring/kafka/prom-jmx-agent-config.yml) de configuração e agente do prometheus na imagem do kafka:
    
    ```dockerfile
     ADD prom-jmx-agent-config.yml /usr/app/prom-jmx-agent-config.yml
